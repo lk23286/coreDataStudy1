@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomCell" rowHeight="73" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="coreDataStudy1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="406" height="73"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyT-Wb-MMg">
+                        <rect key="frame" x="5" y="5" width="30" height="50"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Dhx-Td-ngo"/>
+                            <constraint firstAttribute="width" constant="30" id="hEt-wg-N7g"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5.A 1. csoport" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwi-Xr-LGf">
+                        <rect key="frame" x="45" y="5" width="150" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="ZyI-aT-wDa"/>
+                            <constraint firstAttribute="width" constant="150" id="giu-fa-cYG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01:12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UbU-Cd-Mda">
+                        <rect key="frame" x="256" y="5" width="60" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="PH1-Kc-0qb"/>
+                            <constraint firstAttribute="width" constant="60" id="kK4-1c-zaC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROW-uQ-rp2">
+                        <rect key="frame" x="321" y="5" width="10" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="7El-y4-bfV"/>
+                            <constraint firstAttribute="width" constant="10" id="sXH-IV-0io"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01:12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rpr-M3-PfZ">
+                        <rect key="frame" x="336" y="5" width="60" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="ISx-xV-La3"/>
+                            <constraint firstAttribute="width" constant="60" id="f3j-9S-Au8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.32156863810000003" green="0.57254904510000004" blue="0.41568624970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="eyT-Wb-MMg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="58k-oB-AtT"/>
+                    <constraint firstItem="Nwi-Xr-LGf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="7WV-yp-y6K"/>
+                    <constraint firstItem="ROW-uQ-rp2" firstAttribute="leading" secondItem="UbU-Cd-Mda" secondAttribute="trailing" constant="5" id="9Dd-Vi-pHY"/>
+                    <constraint firstItem="ROW-uQ-rp2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="GBZ-hz-aT7"/>
+                    <constraint firstItem="eyT-Wb-MMg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="NhP-L8-CPR"/>
+                    <constraint firstAttribute="trailing" secondItem="Rpr-M3-PfZ" secondAttribute="trailing" constant="10" id="aYe-B9-Q3K"/>
+                    <constraint firstItem="Rpr-M3-PfZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="q5b-WI-pJ5"/>
+                    <constraint firstItem="Rpr-M3-PfZ" firstAttribute="leading" secondItem="ROW-uQ-rp2" secondAttribute="trailing" constant="5" id="qeo-pU-95V"/>
+                    <constraint firstItem="UbU-Cd-Mda" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="tI8-gW-pv6"/>
+                    <constraint firstItem="Nwi-Xr-LGf" firstAttribute="leading" secondItem="eyT-Wb-MMg" secondAttribute="trailing" constant="10" id="w6U-Ez-aQr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contentLabel" destination="Nwi-Xr-LGf" id="3E2-6z-mth"/>
+                <outlet property="endLabel" destination="Rpr-M3-PfZ" id="LQg-9K-h5g"/>
+                <outlet property="numberLabel" destination="eyT-Wb-MMg" id="998-w9-9Gb"/>
+                <outlet property="startLabel" destination="UbU-Cd-Mda" id="TzA-j1-Gnp"/>
+            </connections>
+            <point key="canvasLocation" x="-16.793893129770993" y="-53.169014084507047"/>
+        </tableViewCell>
+    </objects>
+</document>
